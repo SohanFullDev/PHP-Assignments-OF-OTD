@@ -1,6 +1,6 @@
 <?php 
   function IncrementEvenDoWhileLoop($startNum, $endNum, $stepNum){
-    $i = $startNum;
+    $i = $startNum+1;
     do{
         echo $i . " ";
         $i += $stepNum;
@@ -9,5 +9,5 @@
 
   }
 
-  IncrementEvenDoWhileLoop(2, 20, 2);
+  IncrementEvenDoWhileLoop(1, 20, 2);
 ?>
